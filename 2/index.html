@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Lesson 5</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="burger"></div>
+        <div id="mayo"></div>
+        <div id="spice"></div>
+
+
+     
+     <label>STUFF?</label>
+     <br><br>
+     <label>CHEESE</label>
+     <input onchange="checkBox2(this)" type="radio" id="input3"
+     name="contact2" value="cheese" checked>
+     <label>POTATO</label>
+    <input onchange="checkBox2(this)" type="radio" id="input4"
+     name="contact2" value="potato" >
+     <label>SALAD</label>
+     <input onchange="checkBox2(this)" type="radio" id="input5"
+     name="contact2" value="salad" >
+
+     <br><br>
+    <label>SIZE?</label>
+        <br><br>
+        <label>SMALL</label>
+        <input onchange="checkBox(this)" type="radio" id="input1"
+     name="contact" value="small" checked>
+     <label>LARGE</label>
+        <input onchange="checkBox(this)" type="radio" id="input2"
+     name="contact" value="large" >
+
+     <br><br>
+     <label>TOPP?</label>
+     <br><br>
+     <label>MAYO</label>
+     <input onchange="checkBox3(this)" type="checkbox" id="input6"
+     name="contact3" value="mayo">
+     <label>SPICE</label>
+    <input onchange="checkBox3(this)" type="checkbox" id="input7"
+     name="contact3" value="spice" >
+
+
+    </div>
+
+    <script src="hamburger.js"></script>
+</body>
+
+</html>
