@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="ie=edge">
+    <title>jQuery</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .slider {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .slider__container {
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            text-align: center;
+            transition: 0.2s;
+        }
+
+        .slider__controls {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .slider__control {
+            width: 20px;
+            height: 20px;
+            margin: 0 10px;
+            background-color: #000;
+            display: inline-block;
+            cursor: pointer;
+            border-radius: 50%;
+        }
+
+        .slider__control--isActive {
+            background-color: red;
+        }
+
+        .slider__control_n {
+            width: 25px;
+            height: 25px;
+            background-color: rgb(255, 255, 255);
+            display: inline-block;
+            cursor: pointer;
+            border-radius: 50%;
+            margin-top: 430px;
+            border: 2px solid black;
+
+        }
+        .slider__control_b {
+            width: 25px;
+            height: 25px;
+            margin-right: 50%;
+            background-color: rgb(255, 255, 255);
+            display: inline-block;
+            cursor: pointer;
+            border-radius: 50%;
+            border: 2px solid black;
+        }
+        .slider__control_b:hover , .slider__control_n:hover {
+            background-color: rgba(255, 0, 0, 0.335);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <button class="btn">Click</button>
+    <br><br>
+    <div class="box">
+        <div class="box2"></div>
+    </div>
+    <div class="box">
+        <div class="box2"></div>
+    </div> -->
+
+    <div class="slider">
+        
+        <div class="slider__container">
+            <div class="lr">
+                <div class="slider__control_b">&#8249;</div>
+                <div class="slider__control_n">&#8250;</div>
+            </div>
+            
+        </div>
+        <div class="slider__controls"></div>
+        
+    </div>
+
+    
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
